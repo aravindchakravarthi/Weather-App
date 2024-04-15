@@ -1,0 +1,41 @@
+#keywords {
+	margin: 0 auto;
+	font-size: 1.5em;
+	margin-bottom: 15px;
+}
+
+
+#keywords thead {
+	cursor: pointer;
+	background: #c9dff0;
+}
+
+#keywords thead tr th {
+	font-weight: bold;
+	padding: 12px 30px;
+	padding-left: 42px;
+}
+
+#keywords thead tr th span {
+	padding-right: 20px;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+}
+
+
+#keywords tbody tr {
+	color: #555;
+}
+
+#keywords tbody tr td {
+	text-align: center;
+	padding: 15px 10px;
+}
+
+#keywords tbody tr td.lalign {
+	text-align: left;
+}
+
+tr:hover td {
+	background-color: rgb(235, 230, 230);
+}

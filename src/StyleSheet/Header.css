@@ -1,0 +1,23 @@
+.heading {
+	font-size: 50px
+}
+
+.search {
+	border-radius: 10px;
+	padding: 10px;
+	width: 20%;
+	margin: 20px;
+	border: 1px solid black;
+}
+
+.head {
+	align-items: center;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+	.search{
+	  width: 35%;
+	}
+  }

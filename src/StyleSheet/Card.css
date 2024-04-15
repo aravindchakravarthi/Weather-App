@@ -1,0 +1,54 @@
+.weather {
+	background: url('https://images.pexels.com/photos/259620/pexels-photo-259620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center fixed;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+}
+
+.card p {
+	color: white;
+	font-size: 30px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.card {
+	backdrop-filter: blur(10px);
+	width: 100%;
+	border-radius: 15px;
+	border: 1px solid rgb(155, 144, 144);
+	align-items: center;
+	padding: 20px;
+	margin-top: 20px;
+
+}
+
+.day {
+	text-align: center;
+	font-size: 400% !important;
+	margin-bottom: 25px !important;
+}
+
+.minicard {
+	backdrop-filter: blur(10px);
+	width: 80%;
+	align-items: center;
+	border: 1px solid rgb(155, 144, 144);
+	margin-top: 30px;
+	border-radius: 15px;
+}
+
+.mini {
+	color: white;
+	font-size: 200%;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.jccen {
+	justify-content: center;
+	display: flex;
+}
